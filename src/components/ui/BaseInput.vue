@@ -30,7 +30,6 @@ const props = defineProps<Props>()
 const emit = defineEmits(['update:modelValue']);
 const internalModel = ref(props.modelValue);
 const items: Ref<string[]> = ref([]);
-const options = { mask: '#-#' };
 
 watch(internalModel, (newValue) => {
   emit('update:modelValue', newValue);
