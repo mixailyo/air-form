@@ -1,0 +1,39 @@
+.base-input,
+.base-select,
+.base-range {
+  width: 100%;
+
+  .v-field {
+    border-radius: 6px;
+    border: 2px solid #F7F8F8;
+    background: transparent;
+  }
+
+  .v-field__outline {
+    display: none;
+  }
+
+  .v-field--variant-filled .v-field__overlay {
+    background: transparent;
+  }
+
+  .v-field__field {
+    color: var(--main-color);
+  }
+
+  .v-label {
+    font-size: 14px!important;
+    letter-spacing: normal;
+    opacity: 1;
+    font-weight: 300;
+  }
+
+  .v-field__input {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .v-input__details {
+    align-items: center;
+  }
+}
